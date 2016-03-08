@@ -1,3 +1,6 @@
+<?php
+
+
 namespace Spatie\LaravelAnalytics;
 
 use Illuminate\Support\ServiceProvider;

@@ -295,6 +295,10 @@ class LaravelAnalytics
     {
         return $this->client->getSiteIdByUrl($url);
     }
+    
+    public function getAllSiteIds(){
+        return $this->client->getAllSiteIds();
+    }
 
     /**
      * Call the query method on the authenticated client.
